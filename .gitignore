@@ -3,4 +3,4 @@
 *.sqlite3
 __pycache__
 
-/day0/book/migrations/*.py
+!/day0/book/migrations/__init__.py

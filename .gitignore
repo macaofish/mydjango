@@ -1,5 +1,6 @@
 .env
 *.pyc
 *.sqlite3
-/day0/book/migrations
-/day0/day0/__pycache__
+__pycache__
+
+/day0/book/migrations/*.pyc

@@ -82,8 +82,10 @@ DATABASES = {
         'NAME': 'web',
         'USER': 'webuser',
         'PASSWORD': 'webpass',
-        'HOST': '10.8.0.222',
+        # 'HOST': '10.8.0.222',
         'PORT': '5432',
+        'HOST': '192.168.30.51',
+        # 'PORT': '5800',
     }
 }
 

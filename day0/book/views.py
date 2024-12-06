@@ -12,5 +12,5 @@ def query_book(request):
     # books = Book.objects.filter(name='三国演义')
     # for book in books:
     #     print(book.id, book.name, book.author, book.price)
-    book = Book.objects.get(name='三国') # 使用get不存在会出错
+    book = Book.objects.get(name='三国演义') # 使用get不存在会出错
     return HttpResponse("查找成功！")
